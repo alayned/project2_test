@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.popup{
+	position: fixed;
+	top: 70%;
+	left: 80%;
+	transform: translate(-70%, -80%)
+}
+
+.content_box{
+	position: relative;
+	width: 350px;
+	height: 150px;
+	background: #e3e6e4;
+	padding: 20px;
+	display: flex;
+	box-shadow: 0 5px 5px; 
+}
+
+.button {
+	position: absolute;
+	left: 250px;
+	top: 120px;
+}
